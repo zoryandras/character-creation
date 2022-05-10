@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+
+body{
+  background-image: url("images/wallpaper.jpeg");
+  font-size: 40px;
+  color: white;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+#form {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 50%;
+  color: rgb(255, 255, 255);
+}  
+
+#input1 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin: 15px;
+}
+
+select{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  background: rgba(0, 0, 0, 0.063);
+}
+
+select option{
+  background: transparent;
+  font-family: inherit;
+}
+section{
+  position: relative;
+  height: 100%;
+  max-width: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  transform: translateY(50%);
+  transform: translateX(50%);
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.424);
+}
